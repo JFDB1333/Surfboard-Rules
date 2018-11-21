@@ -1,0 +1,4 @@
+[General]
+skip-proxy = 10.0.0.0/8, 17.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 127.0.0.1, localhost, *.local
+dns-server = 119.29.29.29, 119.28.28.28, 1.2.4.8, 1.0.0.1, system
+udp-relay = true
