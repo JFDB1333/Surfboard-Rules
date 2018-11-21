@@ -3,54 +3,54 @@
 
 # --- Stream Service ---
 # >> YouTube
-USER-AGENT,*youtube*,rixClouds
-USER-AGENT,YouTube*,rixClouds
-DOMAIN-SUFFIX,googlevideo.com,rixClouds,force-remote-dns
-DOMAIN-SUFFIX,youtube.com,rixClouds,force-remote-dns
-DOMAIN,youtubei.googleapis.com,rixClouds,force-remote-dns
+USER-AGENT,*youtube*,,rixCloud
+USER-AGENT,YouTube*,,rixCloud
+DOMAIN-SUFFIX,googlevideo.com,,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,youtube.com,,rixCloud,force-remote-dns
+DOMAIN,youtubei.googleapis.com,,rixCloud,force-remote-dns
 # >> Netflix
-USER-AGENT,Argo*,rixClouds
-DOMAIN-SUFFIX,netflix.com,rixClouds
-DOMAIN-SUFFIX,netflix.net,rixClouds
-DOMAIN-SUFFIX,nflxext.com,rixClouds
-DOMAIN-SUFFIX,nflximg.com,rixClouds
-DOMAIN-SUFFIX,nflximg.net,rixClouds
-DOMAIN-SUFFIX,nflxso.net,rixClouds
-DOMAIN-SUFFIX,nflxvideo.net,rixClouds
+USER-AGENT,Argo*,,rixCloud
+DOMAIN-SUFFIX,netflix.com,,rixCloud
+DOMAIN-SUFFIX,netflix.net,,rixCloud
+DOMAIN-SUFFIX,nflxext.com,,rixCloud
+DOMAIN-SUFFIX,nflximg.com,,rixCloud
+DOMAIN-SUFFIX,nflximg.net,,rixCloud
+DOMAIN-SUFFIX,nflxso.net,,rixCloud
+DOMAIN-SUFFIX,nflxvideo.net,,rixCloud
 # >> HBO
-USER-AGENT,HBO%20NOW*,rixClouds
-DOMAIN-SUFFIX,hbo.com,rixClouds
-DOMAIN-SUFFIX,hbogo.com,rixClouds
+USER-AGENT,HBO%20NOW*,,rixCloud
+DOMAIN-SUFFIX,hbo.com,,rixCloud
+DOMAIN-SUFFIX,hbogo.com,,rixCloud
 # >> Hulu
-USER-AGENT,Hulu*,rixClouds
-DOMAIN-SUFFIX,hulu.com,rixClouds
-DOMAIN-SUFFIX,huluim.com,rixClouds
-DOMAIN-SUFFIX,happyon.jp,rixClouds
+USER-AGENT,Hulu*,,rixCloud
+DOMAIN-SUFFIX,hulu.com,,rixCloud
+DOMAIN-SUFFIX,huluim.com,,rixCloud
+DOMAIN-SUFFIX,happyon.jp,,rixCloud
 # >> BBC
-USER-AGENT,BBCiPlayer*,rixClouds
-DOMAIN-SUFFIX,bbc.co.uk,rixClouds,force-remote-dns
-DOMAIN-SUFFIX,bbci.co.uk,rixClouds,force-remote-dns
-DOMAIN-KEYWORD,bbcfmt,rixClouds
-DOMAIN-KEYWORD,uk-live,rixClouds
+USER-AGENT,BBCiPlayer*,,rixCloud
+DOMAIN-SUFFIX,bbc.co.uk,,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,bbci.co.uk,,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,bbcfmt,,rixCloud
+DOMAIN-KEYWORD,uk-live,,rixCloud
 # >> Bahamut
-USER-AGENT,Anime*,rixClouds
-DOMAIN-SUFFIX,bahamut.com.tw,rixClouds
-DOMAIN-SUFFIX,gamer.com.tw,rixClouds
-DOMAIN-SUFFIX,hinet.net,rixClouds
+USER-AGENT,Anime*,,rixCloud
+DOMAIN-SUFFIX,bahamut.com.tw,,rixCloud
+DOMAIN-SUFFIX,gamer.com.tw,,rixCloud
+DOMAIN-SUFFIX,hinet.net,,rixCloud
 # >> myTV Super
-USER-AGENT,mytv*,rixClouds
-DOMAIN-SUFFIX,mytvsuper.com,rixClouds
-DOMAIN-SUFFIX,tvb.com,rixClouds
+USER-AGENT,mytv*,,rixCloud
+DOMAIN-SUFFIX,mytvsuper.com,,rixCloud
+DOMAIN-SUFFIX,tvb.com,,rixCloud
 # >> AbemaTV
-USER-AGENT,AbemaTV*,rixClouds
-DOMAIN-SUFFIX,abema.io,rixClouds
-DOMAIN-SUFFIX,ameba.jp,rixClouds
-DOMAIN-SUFFIX,hayabusa.io,rixClouds
-DOMAIN,linear-abematv.akamaized.net,rixClouds
+USER-AGENT,AbemaTV*,,rixCloud
+DOMAIN-SUFFIX,abema.io,,rixCloud
+DOMAIN-SUFFIX,ameba.jp,,rixCloud
+DOMAIN-SUFFIX,hayabusa.io,,rixCloud
+DOMAIN,linear-abematv.akamaized.net,,rixCloud
 # >> JOOX
-USER-AGENT,WeMusic*,rixClouds
-USER-AGENT,JOOX*,rixClouds
-DOMAIN-SUFFIX,joox.com,rixClouds
+USER-AGENT,WeMusic*,,rixCloud
+USER-AGENT,JOOX*,,rixCloud
+DOMAIN-SUFFIX,joox.com,,rixCloud
 # --- End of Stream Service Section ---
 
 # --- Enhanced Anti-GFW ---
@@ -168,25 +168,25 @@ DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
 # --- General Anti-GFW ---
 # >> Apple
 DOMAIN-SUFFIX,appsto.re,rixCloud
-DOMAIN,itunes.apple.com,rixClouds
+DOMAIN,itunes.apple.com,,rixCloud
 DOMAIN,books.itunes.apple.com,rixCloud
 DOMAIN,hls.itunes.apple.com,rixCloud
 DOMAIN,lookup-api.apple.com,rixCloud
 DOMAIN,api-glb-sea.smoot.apple.com,rixCloud
-DOMAIN-SUFFIX,itunes.apple.com,rixClouds
-DOMAIN,audio-ssl.itunes.apple.com,rixClouds
-DOMAIN,gspe1-ssl.ls.apple.com,rixClouds
-USER-AGENT,rixCloudsNews*,rixCloud
-DOMAIN-SUFFIX,aaplimg.com,rixClouds
-DOMAIN-SUFFIX,rixClouds.co,rixClouds
-DOMAIN-SUFFIX,rixClouds.com,rixClouds
-DOMAIN-SUFFIX,appstore.com,rixClouds
-DOMAIN-SUFFIX,cdn-apple.com,rixClouds
-DOMAIN-SUFFIX,crashlytics.com,rixClouds
-DOMAIN-SUFFIX,icloud.com,rixClouds
-DOMAIN-SUFFIX,icloud-content.com,rixClouds
-DOMAIN-SUFFIX,me.com,rixClouds
-DOMAIN-SUFFIX,mzstatic.com,rixClouds
+DOMAIN-SUFFIX,itunes.apple.com,,rixCloud
+DOMAIN,audio-ssl.itunes.apple.com,,rixCloud
+DOMAIN,gspe1-ssl.ls.apple.com,,rixCloud
+USER-AGENT,,rixCloudNews*,rixCloud
+DOMAIN-SUFFIX,aaplimg.com,,rixCloud
+DOMAIN-SUFFIX,,rixCloud.co,,rixCloud
+DOMAIN-SUFFIX,,rixCloud.com,,rixCloud
+DOMAIN-SUFFIX,appstore.com,,rixCloud
+DOMAIN-SUFFIX,cdn-apple.com,,rixCloud
+DOMAIN-SUFFIX,crashlytics.com,,rixCloud
+DOMAIN-SUFFIX,icloud.com,,rixCloud
+DOMAIN-SUFFIX,icloud-content.com,,rixCloud
+DOMAIN-SUFFIX,me.com,,rixCloud
+DOMAIN-SUFFIX,mzstatic.com,,rixCloud
 # >> Google
 DOMAIN-SUFFIX,abc.xyz,rixCloud
 DOMAIN-SUFFIX,android.com,rixCloud
