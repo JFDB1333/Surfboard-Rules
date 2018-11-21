@@ -63,17 +63,17 @@ DOMAIN-SUFFIX,rixcloud.app,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,rixcloud.ee,rixCloud,force-remote-dns
 DOMAIN,analytics.rixcloud.app,DIRECT
 # >> Google
-DOMAIN,accounts.google.com,Proxy,force-remote-dns,enhanced-mode
+DOMAIN,accounts.google.com,rixCloud,force-remote-dns,enhanced-mode
 DOMAIN-SUFFIX,appspot.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,blogger.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,getoutline.org,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gvt0.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gvt1.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gvt3.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,googleapis.cn,Proxy,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,googleapis.com,Proxy,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,googlesource.com,Proxy,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,google.com,Proxy,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,googleapis.cn,rixCloud,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,googleapis.com,rixCloud,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,googlesource.com,rixCloud,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,google.com,rixCloud,force-remote-dns,enhanced-mode
 DOMAIN-KEYWORD,blogspot,rixCloud,force-remote-dns
 # >> Facebook
 DOMAIN-SUFFIX,cdninstagram.com,rixCloud,force-remote-dns
