@@ -40,6 +40,10 @@ DOMAIN-SUFFIX,hayabusa.io,rixCloud
 DOMAIN,linear-abematv.akamaized.net,rixCloud
 # >> JOOX
 DOMAIN-SUFFIX,joox.com,rixCloud
+# >> Spotify
+DOMAIN-SUFFIX,scdn.co,rixCloud
+DOMAIN-SUFFIX,spotify.com,rixCloud
+DOMAIN-SUFFIX,spoti.fi,rixCloud
 # --- End of Stream Service Section ---
 
 # --- Enhanced Anti-GFW ---
@@ -487,7 +491,6 @@ DOMAIN,tunion-api.m.taobao.com,REJECT
 # >> Tencent
 DOMAIN-SUFFIX,bugly.qq.com,REJECT
 DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,l.qq.com,REJECT
 DOMAIN-SUFFIX,rqd.qq.com,REJECT
 DOMAIN,mi.gdt.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
