@@ -1,4 +1,4 @@
-[Rule]
+Rabbit[Rule]
 # Main Section: Proxy & Direct
 
 # --- Stream Service ---
@@ -271,7 +271,6 @@ DOMAIN-SUFFIX,akadns.net,DIRECT
 # --- AD Block ---
 # >> General
 DOMAIN-KEYWORD,adservice,REJECT
-DOMAIN-KEYWORD,analytics,REJECT
 DOMAIN-SUFFIX,3lift.com,REJECT
 DOMAIN-SUFFIX,51.la,REJECT
 DOMAIN-SUFFIX,56txs4.com,REJECT
