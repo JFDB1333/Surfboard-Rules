@@ -2,55 +2,69 @@
 # Main Section: Proxy & Direct
 
 # --- Stream Service ---
-# >> YouTube
-DOMAIN-SUFFIX,googlevideo.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,youtube.com,rixCloud,force-remote-dns
-DOMAIN,youtubei.googleapis.com,rixCloud,force-remote-dns
-# >> Netflix
-DOMAIN-SUFFIX,netflix.com,rixCloud
-DOMAIN-SUFFIX,netflix.net,rixCloud
-DOMAIN-SUFFIX,nflxext.com,rixCloud
-DOMAIN-SUFFIX,nflximg.com,rixCloud
-DOMAIN-SUFFIX,nflximg.net,rixCloud
-DOMAIN-SUFFIX,nflxso.net,rixCloud
-DOMAIN-SUFFIX,nflxvideo.net,rixCloud
-# >> HBO
-DOMAIN-SUFFIX,hbo.com,rixCloud
-DOMAIN-SUFFIX,hbogo.com,rixCloud
-# >> Hulu
-DOMAIN-SUFFIX,hulu.com,rixCloud
-DOMAIN-SUFFIX,huluim.com,rixCloud
-DOMAIN-SUFFIX,happyon.jp,rixCloud
-# >> BBC
-DOMAIN-SUFFIX,bbc.co.uk,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,bbci.co.uk,rixCloud,force-remote-dns
-DOMAIN-KEYWORD,bbcfmt,rixCloud
-DOMAIN-KEYWORD,uk-live,rixCloud
-# >> Bahamut
-DOMAIN-SUFFIX,bahamut.com.tw,rixCloud
-DOMAIN-SUFFIX,gamer.com.tw,rixCloud
-DOMAIN-SUFFIX,hinet.net,rixCloud
-# >> myTV Super
-DOMAIN-SUFFIX,mytvsuper.com,rixCloud
-DOMAIN-SUFFIX,tvb.com,rixCloud
-# >> encoreTVB
-USER-AGENT,encoreTVB*,rixCloud
-DOMAIN,content.jwplatform.com,rixCloud
-DOMAIN,videos-f.jwpsrv.com,rixCloud
+
 # >> AbemaTV
-DOMAIN-SUFFIX,abema.io,rixCloud
-DOMAIN-SUFFIX,ameba.jp,rixCloud
-DOMAIN-SUFFIX,hayabusa.io,rixCloud
-DOMAIN,linear-abematv.akamaized.net,rixCloud
+DOMAIN-SUFFIX,abema.io,Stream Services
+DOMAIN-SUFFIX,ameba.jp,Stream Services
+DOMAIN-SUFFIX,hayabusa.io,Stream Services
+DOMAIN,linear-abematv.akamaized.net,Stream Services
+
+# >> Bahamut
+DOMAIN-SUFFIX,bahamut.com.tw,Stream Services
+DOMAIN-SUFFIX,gamer.com.tw,Stream Services
+DOMAIN-SUFFIX,hinet.net,Stream Services
+
+# >> BBC
+DOMAIN-SUFFIX,bbc.co.uk,Stream Services,force-remote-dns
+DOMAIN-SUFFIX,bbci.co.uk,Stream Services,force-remote-dns
+DOMAIN-KEYWORD,bbcfmt,Stream Services
+DOMAIN-KEYWORD,uk-live,Stream Services
+
+# >> encoreTVB
+
+# >> HBO
+DOMAIN-SUFFIX,hbo.com,Stream Services
+DOMAIN-SUFFIX,hbogo.com,Stream Services
+
+# >> Hulu
+DOMAIN-SUFFIX,hulu.com,Stream Services
+DOMAIN-SUFFIX,huluim.com,Stream Services
+DOMAIN-SUFFIX,happyon.jp,Stream Services
+
+# >> Jwplayer
+DOMAIN,content.jwplatform.com,Stream Services
+DOMAIN,videos-f.jwpsrv.com,Stream Services
+
 # >> JOOX
-DOMAIN-SUFFIX,joox.com,rixCloud
+DOMAIN-SUFFIX,joox.com,Stream Services
+
+# >> myTV Super
+DOMAIN-SUFFIX,mytvsuper.com,Stream Services
+DOMAIN-SUFFIX,tvb.com,Stream Services
+
+# >> Netflix
+DOMAIN-SUFFIX,netflix.com,Stream Services
+DOMAIN-SUFFIX,netflix.net,Stream Services
+DOMAIN-SUFFIX,nflxext.com,Stream Services
+DOMAIN-SUFFIX,nflximg.com,Stream Services
+DOMAIN-SUFFIX,nflximg.net,Stream Services
+DOMAIN-SUFFIX,nflxso.net,Stream Services
+DOMAIN-SUFFIX,nflxvideo.net,Stream Services
+
 # >> Spotify
-DOMAIN-SUFFIX,scdn.co,rixCloud
-DOMAIN-SUFFIX,spotify.com,rixCloud
-DOMAIN-SUFFIX,spoti.fi,rixCloud
+DOMAIN-SUFFIX,scdn.co,Stream Services
+DOMAIN-SUFFIX,spotify.com,Stream Services
+DOMAIN-SUFFIX,spoti.fi,Stream Services
+
+# >> YouTube
+DOMAIN-SUFFIX,googlevideo.com,Stream Services,force-remote-dns
+DOMAIN-SUFFIX,youtube.com,Stream Services,force-remote-dns
+DOMAIN,youtubei.googleapis.com,Stream Services,force-remote-dns
+
 # --- End of Stream Service Section ---
 
 # --- Enhanced Anti-GFW ---
+
 # >> rixCloud
 DOMAIN-SUFFIX,rix.ee,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,rixcloud.com,rixCloud,force-remote-dns
@@ -59,47 +73,63 @@ DOMAIN-SUFFIX,rixcloud.io,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,rixcloud.app,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,rixcloud.ee,rixCloud,force-remote-dns
 DOMAIN,analytics.rixcloud.app,DIRECT
+
 # >> Google
-DOMAIN,accounts.google.com,rixCloud,force-remote-dns,enhanced-mode
+DOMAIN-KEYWORD,blogspot,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,google,rixCloud,force-remote-dns
+
 DOMAIN-SUFFIX,appspot.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,blogger.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,getoutline.org,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,gmail.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gvt0.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gvt1.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gvt3.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,googleapis.cn,rixCloud,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,googleapis.com,rixCloud,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,googlesource.com,rixCloud,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,google.com,rixCloud,force-remote-dns,enhanced-mode
+DOMAIN-KEYWORD,google,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,gmail.com,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,blogspot,rixCloud,force-remote-dns
+
 # >> Facebook
+DOMAIN-KEYWORD,facebook,rixCloud,force-remote-dns
+
 DOMAIN-SUFFIX,cdninstagram.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,fb.me,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,fbcdn.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,instagram.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,messenger.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,whatsapp.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,whatsapp.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,oculus.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,oculuscdn.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,whatsapp.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,whatsapp.net,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,facebook,rixCloud,force-remote-dns
+
 # >> Twitter
 DOMAIN-SUFFIX,t.co,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,twimg.co,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,twimg.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,twitpic.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,twitter.com,rixCloud,force-remote-dns
+
 # >> Line
-DOMAIN-SUFFIX,line.me,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,line-apps.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,line-scdn.net,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,line.me,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,naver.jp,rixCloud,force-remote-dns
+
 # >> Other
+DOMAIN,onedrive.live.com,rixCloud,force-remote-dns
+
+DOMAIN-KEYWORD,jav,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,porn,rixCloud,force-remote-dns
+
 DOMAIN-SUFFIX,abc.net.au,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,amazon.co.jp,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,apk-dl.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,apkpure.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,ask.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,avgle.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,bandwagonhost.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,bbc.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,behance.net,rixCloud,force-remote-dns
@@ -118,8 +148,10 @@ DOMAIN-SUFFIX,feedly.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,flickr.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gate.io,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,goodreads.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,hbg.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,huobi.pro,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,initiummall.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,jkforum.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,kakao.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,live.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,medium.com,rixCloud,force-remote-dns
@@ -131,6 +163,7 @@ DOMAIN-SUFFIX,nytimes.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,nytstyle.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,ok.ru,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,okex.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,pinimg.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,pixiv.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,pornhub.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,quora.com,rixCloud,force-remote-dns
@@ -160,34 +193,45 @@ DOMAIN-SUFFIX,xvideos.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,yahoo.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,pinimg.com,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,hbg.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,avgle.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,jkforum.net,rixCloud,force-remote-dns
+DOMAIN,onedrive.live.com,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,jav,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,porn,rixCloud,force-remote-dns
 # --- End of Enhanced Anit-GFW Section ---
 
 # --- General Anti-GFW ---
+
 # >> Apple
+# >> Apple Services
+DOMAIN,audio-ssl.itunes.apple.com,Apple Services
+DOMAIN,gspe1-ssl.ls.apple.com,Apple Services
+DOMAIN,itunes.apple.com,Apple Services
+DOMAIN-SUFFIX,aaplimg.com,Apple Services
+DOMAIN-SUFFIX,apple.co,Apple Services
+DOMAIN-SUFFIX,apple.com,Apple Services
+DOMAIN-SUFFIX,appstore.com,Apple Services
+DOMAIN-SUFFIX,cdn-apple.com,Apple Services
+DOMAIN-SUFFIX,crashlytics.com,Apple Services
+DOMAIN-SUFFIX,icloud-content.com,Apple Services
+DOMAIN-SUFFIX,icloud.com,Apple Services
+DOMAIN-SUFFIX,itunes.apple.com,Apple Services
+DOMAIN-SUFFIX,me.com,Apple Services
+DOMAIN-SUFFIX,mzstatic.com,Apple Services
+
 DOMAIN-SUFFIX,appsto.re,rixCloud
-DOMAIN,itunes.apple.com,rixCloud
+DOMAIN,api-glb-sea.smoot.apple.com,rixCloud
 DOMAIN,books.itunes.apple.com,rixCloud
 DOMAIN,hls.itunes.apple.com,rixCloud
 DOMAIN,lookup-api.apple.com,rixCloud
-DOMAIN,api-glb-sea.smoot.apple.com,rixCloud
-DOMAIN-SUFFIX,itunes.apple.com,rixCloud
-DOMAIN,audio-ssl.itunes.apple.com,rixCloud
-DOMAIN,gspe1-ssl.ls.apple.com,rixCloud
-DOMAIN-SUFFIX,aaplimg.com,rixCloud
-DOMAIN-SUFFIX,rixCloud.co,rixCloud
-DOMAIN-SUFFIX,rixCloud.com,rixCloud
-DOMAIN-SUFFIX,appstore.com,rixCloud
-DOMAIN-SUFFIX,cdn-apple.com,rixCloud
-DOMAIN-SUFFIX,crashlytics.com,rixCloud
-DOMAIN-SUFFIX,icloud.com,rixCloud
-DOMAIN-SUFFIX,icloud-content.com,rixCloud
-DOMAIN-SUFFIX,me.com,rixCloud
-DOMAIN-SUFFIX,mzstatic.com,rixCloud
+
 # >> Google
 DOMAIN-SUFFIX,abc.xyz,rixCloud
+DOMAIN-SUFFIX,admin.recaptcha.net,rixCloud
 DOMAIN-SUFFIX,android.com,rixCloud
 DOMAIN-SUFFIX,androidify.com,rixCloud
-DOMAIN-SUFFIX,dialogflow.com,rixCloud
 DOMAIN-SUFFIX,autodraw.com,rixCloud
 DOMAIN-SUFFIX,capitalg.com,rixCloud
 DOMAIN-SUFFIX,certificate-transparency.org,rixCloud
@@ -198,10 +242,10 @@ DOMAIN-SUFFIX,chromium.org,rixCloud
 DOMAIN-SUFFIX,creativelab5.com,rixCloud
 DOMAIN-SUFFIX,debug.com,rixCloud
 DOMAIN-SUFFIX,deepmind.com,rixCloud
+DOMAIN-SUFFIX,dialogflow.com,rixCloud
 DOMAIN-SUFFIX,firebaseio.com,rixCloud
 DOMAIN-SUFFIX,getmdl.io,rixCloud
 DOMAIN-SUFFIX,ggpht.com,rixCloud
-DOMAIN-SUFFIX,gmail.com,rixCloud
 DOMAIN-SUFFIX,gmodules.com,rixCloud
 DOMAIN-SUFFIX,godoc.org,rixCloud
 DOMAIN-SUFFIX,golang.org,rixCloud
@@ -212,7 +256,6 @@ DOMAIN-SUFFIX,itasoftware.com,rixCloud
 DOMAIN-SUFFIX,madewithcode.com,rixCloud
 DOMAIN-SUFFIX,material.io,rixCloud
 DOMAIN-SUFFIX,polymer-project.org,rixCloud
-DOMAIN-SUFFIX,admin.recaptcha.net,rixCloud
 DOMAIN-SUFFIX,recaptcha.net,rixCloud
 DOMAIN-SUFFIX,shattered.io,rixCloud
 DOMAIN-SUFFIX,synergyse.com,rixCloud
@@ -229,51 +272,133 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com,rixCloud
 DOMAIN-SUFFIX,youtu.be,rixCloud
 DOMAIN-SUFFIX,yt.be,rixCloud
 DOMAIN-SUFFIX,ytimg.com,rixCloud
+
 # >> Other
-DOMAIN-SUFFIX,fb.com,rixCloud
-DOMAIN-SUFFIX,bing.com,rixCloud
 DOMAIN,ccmdl.adobe.com,rixCloud
+DOMAIN-SUFFIX,bing.com,rixCloud
+DOMAIN-SUFFIX,fb.com,rixCloud
+DOMAIN-SUFFIX,newsblur.com,rixCloud
+DOMAIN,ccmdl.adobe.com,rixCloud
+
+# >> Telegram
 DOMAIN-SUFFIX,telegra.ph,rixCloud
+
 IP-CIDR,91.108.4.0/22,rixCloud,no-resolve
 IP-CIDR,91.108.8.0/22,rixCloud,no-resolve
 IP-CIDR,91.108.56.0/22,rixCloud,no-resolve
 IP-CIDR,109.239.140.0/24,rixCloud,no-resolve
 IP-CIDR,149.154.160.0/20,rixCloud,no-resolve
+
 # --- End of General Anit-GFW Section ---
 
-## --- Mainland China Available --
-## >> Microsoft
-#DOMAIN-SUFFIX,storage.live.com,DIRECT
-#DOMAIN-SUFFIX,1drv.com,DIRECT
-#DOMAIN,officecdn-microsoft-com.akamaized.net,DIRECT
-#DOMAIN-SUFFIX,microsoft.com,DIRECT
-#DOMAIN-SUFFIX,windows.net,DIRECT
-## >> Blizzard
-#DOMAIN-SUFFIX,blizzard.com,DIRECT
-#DOMAIN-SUFFIX,battle.net,DIRECT
-#DOMAIN,blzddist1-a.akamaihd.net,DIRECT
-## >> Steam Store
-#DOMAIN-SUFFIX,steampowered.com,DIRECT
-#DOMAIN-SUFFIX,steam-chat.com,DIRECT
-#DOMAIN,steamcdn-a.akamaihd.net,DIRECT
-#DOMAIN,steamuserimages-a.akamaihd.net,DIRECT
-#DOMAIN,steamstore-a.akamaihd.net,DIRECT
-## >> Others
-#DOMAIN-SUFFIX,test-ipv6.com,DIRECT
-#DOMAIN-SUFFIX,ipv6-test.com,DIRECT
-#DOMAIN-SUFFIX,akadns.net,DIRECT
-## --- End of Mainland China Available Section ---
+# --- Mainland China Available --
+# >> Blizzard
+DOMAIN,blzddist1-a.akamaihd.net,DIRECT
+DOMAIN-SUFFIX,battle.net,DIRECT
+DOMAIN-SUFFIX,blizzard.com,DIRECT
+
+# >> Microsoft
+DOMAIN,officecdn-microsoft-com.akamaized.net,DIRECT
+DOMAIN-SUFFIX,1drv.com,DIRECT
+DOMAIN-SUFFIX,microsoft.com,DIRECT
+DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
+DOMAIN-SUFFIX,msftncsi.com,DIRECT
+DOMAIN-SUFFIX,windows.net,DIRECT
+DOMAIN-SUFFIX,sfx.ms,DIRECT
+DOMAIN-SUFFIX,storage.live.com,DIRECT
+DOMAIN-SUFFIX,1drv.com,DIRECT
+DOMAIN,officecdn-microsoft-com.akamaized.net,DIRECT
+
+# >> WeChat
+
+# >> Steam Store
+DOMAIN-SUFFIX,steampowered.com,DIRECT
+DOMAIN-SUFFIX,steam-chat.com,DIRECT
+
+DOMAIN,steamcdn-a.akamaihd.net,DIRECT
+DOMAIN,steamuserimages-a.akamaihd.net,DIRECT
+DOMAIN,steamstore-a.akamaihd.net,DIRECT
+
+# >> WeChat
+
+# >> Others
+DOMAIN-SUFFIX,jd.hk,DIRECT
+DOMAIN-SUFFIX,maoyun.tv,DIRECT
+DOMAIN-SUFFIX,teamviewer.com,DIRECT
+DOMAIN-SUFFIX,udacity.com,DIRECT
+DOMAIN-SUFFIX,test-ipv6.com,DIRECT
+DOMAIN-SUFFIX,ipv6-test.com,DIRECT
+DOMAIN-SUFFIX,akadns.net,DIRECT
+
+
+# --- End of Mainland China Available Section ---
 
 # Main Section End
 
 # Main Section: Anti-AD
 
 # --- AD Block ---
+
 # >> General
+DOMAIN,abema-adx.ameba.jp,REJECT
+DOMAIN,ad-cn.jovcloud.com,REJECT
+DOMAIN,ad.10010.com,REJECT
+DOMAIN,ad.12306.cn,REJECT
+DOMAIN,ad.caiyunapp.com,REJECT
+DOMAIN,ad.huajiao.com,REJECT
+DOMAIN,ad.hzyoka.com,REJECT
+DOMAIN,ad.jiemian.com,REJECT
+DOMAIN,ad.qingting.fm,REJECT
+DOMAIN,adfile.wifi8.com,REJECT
+DOMAIN,adnew.wifi8.com,REJECT
+DOMAIN,adsapi.manhuaren.com,REJECT
+DOMAIN,adsdk.dmzj.com,REJECT
+DOMAIN,adshow.58.com,REJECT
+DOMAIN,adshows.21cn.com,REJECT
+DOMAIN,adui.tg.meitu.com,REJECT
+DOMAIN,adx.hupu.com,REJECT
+DOMAIN,adxserver.ad.cmvideo.cn,REJECT
+DOMAIN,app-ad.variflight.com,REJECT
+DOMAIN,applog.mobike.com,REJECT
+DOMAIN,appnext.hs.llnwd.net,REJECT
+DOMAIN,ggs.myzaker.com,REJECT
+DOMAIN,log.b612kaji.com,REJECT
+DOMAIN,log.snssdk.com,REJECT
+DOMAIN,log.star.ele.me,REJECT
+DOMAIN,log.umsns.com,REJECT
+DOMAIN,log.voicecloud.cn,REJECT
+DOMAIN,log.ys7.com,REJECT
+DOMAIN,log.ys7.com,REJECT
+DOMAIN,logs.chelaile.net.cn,REJECT
+DOMAIN,mopnativeadv.037201.com,REJECT
+DOMAIN,nativeadv.dftoutiao.com,REJECT
+DOMAIN,pagead2.googlesyndication.com,REJECT
+DOMAIN,report.jpush.cn,REJECT
+DOMAIN,s0.2mdn.net,REJECT
+DOMAIN,sp0.baidu.com,REJECT
+DOMAIN,static.jpush.cn,REJECT
+DOMAIN,static.vuevideo.net,REJECT
+DOMAIN,stats.jpush.cn,REJECT
+DOMAIN,stats.umsns.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
+DOMAIN,track.58.com,REJECT
+DOMAIN,track.tiara.daum.net,REJECT
+DOMAIN,track.tiara.kakao.com,REJECT
+DOMAIN,trackapp.guahao.cn,REJECT
+DOMAIN,tracklog.58.com,REJECT
+DOMAIN,traffic.mogujie.com,REJECT
+DOMAIN,wgo.mmstat.com,REJECT
+DOMAIN,wmlog.meituan.com,REJECT
+DOMAIN,zz.bdstatic.com,REJECT
+
 DOMAIN-KEYWORD,adservice,REJECT
+
 DOMAIN-SUFFIX,3lift.com,REJECT
 DOMAIN-SUFFIX,51.la,REJECT
 DOMAIN-SUFFIX,56txs4.com,REJECT
+DOMAIN-SUFFIX,ad.daum.net,REJECT
+DOMAIN-SUFFIX,ad373.com,REJECT
+DOMAIN-SUFFIX,adcolony.com,REJECT
 DOMAIN-SUFFIX,adform.net,REJECT
 DOMAIN-SUFFIX,adinall.com,REJECT
 DOMAIN-SUFFIX,adjust.com,REJECT
@@ -283,11 +408,13 @@ DOMAIN-SUFFIX,admarvel.com,REJECT
 DOMAIN-SUFFIX,admaster.com.cn,REJECT
 DOMAIN-SUFFIX,admob.com,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
+DOMAIN-SUFFIX,ads-twitter.com,REJECT
+DOMAIN-SUFFIX,ads.adaptv.advertising.com,REJECT
 DOMAIN-SUFFIX,adsafeprotected.com,REJECT
 DOMAIN-SUFFIX,adsrvr.org,REJECT
-DOMAIN-SUFFIX,ads-twitter.com,REJECT
 DOMAIN-SUFFIX,adsymptotic.com,REJECT
 DOMAIN-SUFFIX,adtechus.com,REJECT
+DOMAIN-SUFFIX,adtilt.com,REJECT
 DOMAIN-SUFFIX,advertising.com,REJECT
 DOMAIN-SUFFIX,adview.cn,REJECT
 DOMAIN-SUFFIX,adxpansion.com,REJECT
@@ -297,19 +424,24 @@ DOMAIN-SUFFIX,agkn.com,REJECT
 DOMAIN-SUFFIX,alipaylog.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,analysys.cn,REJECT
+DOMAIN-SUFFIX,api.appsee.com,REJECT
 DOMAIN-SUFFIX,app-adforce.jp,REJECT
 DOMAIN-SUFFIX,appboy.com,REJECT
 DOMAIN-SUFFIX,appier.net,REJECT
+DOMAIN-SUFFIX,appnext.com,REJECT
 DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,apptentive.com,REJECT
 DOMAIN-SUFFIX,atwola.com,REJECT
 DOMAIN-SUFFIX,bidswitch.com,REJECT
+DOMAIN-SUFFIX,bjytgw.com,REJECT
 DOMAIN-SUFFIX,bttrack.com,REJECT
+DOMAIN-SUFFIX,bxmns.com,REJECT
 DOMAIN-SUFFIX,cappumedia.com,REJECT
 DOMAIN-SUFFIX,cferw.com,REJECT
 DOMAIN-SUFFIX,chartbeat.net,REJECT
 DOMAIN-SUFFIX,clickhubs.com,REJECT
 DOMAIN-SUFFIX,cloudmobi.net,REJECT
+DOMAIN-SUFFIX,cnadnet.com,REJECT
 DOMAIN-SUFFIX,cnzz.com,REJECT
 DOMAIN-SUFFIX,cocounion.com,REJECT
 DOMAIN-SUFFIX,conviva.com,REJECT
@@ -329,23 +461,28 @@ DOMAIN-SUFFIX,exposebox.com,REJECT
 DOMAIN-SUFFIX,eyeota.net,REJECT
 DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,fwmrm.net,REJECT
+DOMAIN-SUFFIX,g1.tagtic.cn,REJECT
 DOMAIN-SUFFIX,getrockerbox.com,REJECT
-DOMAIN-SUFFIX,go2cloud.org,REJECT
 DOMAIN-SUFFIX,go-mpulse.net,REJECT
+DOMAIN-SUFFIX,go2cloud.org,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,gowadogo.com,REJECT
 DOMAIN-SUFFIX,growingio.com,REJECT
+DOMAIN-SUFFIX,i2000.xyz,REJECT
+DOMAIN-SUFFIX,i2000.xyz,REJECT
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
 DOMAIN-SUFFIX,igexin.com,REJECT
+DOMAIN-SUFFIX,img.adnyg.com,REJECT
 DOMAIN-SUFFIX,imrworldwide.com,REJECT
 DOMAIN-SUFFIX,indexww.com,REJECT
 DOMAIN-SUFFIX,inmobi.cn,REJECT
 DOMAIN-SUFFIX,inmobi.com,REJECT
 DOMAIN-SUFFIX,instabug.com,REJECT
 DOMAIN-SUFFIX,irs01.com,REJECT
+DOMAIN-SUFFIX,juicyads.com,REJECT
 DOMAIN-SUFFIX,kejet.net,REJECT
 DOMAIN-SUFFIX,knlob.com,REJECT
 DOMAIN-SUFFIX,kochava.com,REJECT
@@ -356,6 +493,8 @@ DOMAIN-SUFFIX,leanplum.com,REJECT
 DOMAIN-SUFFIX,lenzmx.com,REJECT
 DOMAIN-SUFFIX,lnk0.com,REJECT
 DOMAIN-SUFFIX,luomi.com,REJECT
+DOMAIN-SUFFIX,madserving.com,REJECT
+DOMAIN-SUFFIX,madserving.com,REJECT
 DOMAIN-SUFFIX,mathtag.com,REJECT
 DOMAIN-SUFFIX,metalex.io,REJECT
 DOMAIN-SUFFIX,mfadsrvr.com,REJECT
@@ -369,6 +508,7 @@ DOMAIN-SUFFIX,mxpnl.com,REJECT
 DOMAIN-SUFFIX,mybest.app,REJECT
 DOMAIN-SUFFIX,nexage.com,REJECT
 DOMAIN-SUFFIX,nr-data.net,REJECT
+DOMAIN-SUFFIX,odb.outbrain.com,REJECT
 DOMAIN-SUFFIX,offerstrack.net,REJECT
 DOMAIN-SUFFIX,omtrdc.net,REJECT
 DOMAIN-SUFFIX,outbrain.com,REJECT
@@ -383,13 +523,13 @@ DOMAIN-SUFFIX,quixdtrk.com,REJECT
 DOMAIN-SUFFIX,rayjump.com,REJECT
 DOMAIN-SUFFIX,rubiconproject.com,REJECT
 DOMAIN-SUFFIX,scorecardresearch.com,REJECT
-DOMAIN-SUFFIX,segment.com,REJECT
 DOMAIN-SUFFIX,serving-sys.com,REJECT
 DOMAIN-SUFFIX,simplepath.com,REJECT
 DOMAIN-SUFFIX,skimresources.com,REJECT
 DOMAIN-SUFFIX,smardroid.com,REJECT
 DOMAIN-SUFFIX,snnd.co,REJECT
 DOMAIN-SUFFIX,sonobi.com,REJECT
+DOMAIN-SUFFIX,ssl2.duapps.com,REJECT
 DOMAIN-SUFFIX,starmobs.com,REJECT
 DOMAIN-SUFFIX,storygize.net,REJECT
 DOMAIN-SUFFIX,summerhamster.com,REJECT
@@ -397,11 +537,14 @@ DOMAIN-SUFFIX,supersonicads.com,REJECT
 DOMAIN-SUFFIX,taboola.com,REJECT
 DOMAIN-SUFFIX,talkingdata.com,REJECT
 DOMAIN-SUFFIX,tango-deg.com,REJECT
+DOMAIN-SUFFIX,tanv.com,REJECT
 DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN-SUFFIX,taplytics.com,REJECT
 DOMAIN-SUFFIX,taptica.com,REJECT
 DOMAIN-SUFFIX,testplus.cn,REJECT
+DOMAIN-SUFFIX,tpc.googlesyndication.com,REJECT
 DOMAIN-SUFFIX,track.xiachufang.com,REJECT
+DOMAIN-SUFFIX,track1.aniview.com,REJECT
 DOMAIN-SUFFIX,trackclickers.com,REJECT
 DOMAIN-SUFFIX,trafficjunky.net,REJECT
 DOMAIN-SUFFIX,trustx.org,REJECT
@@ -412,6 +555,7 @@ DOMAIN-SUFFIX,udrig.com,REJECT
 DOMAIN-SUFFIX,umeng.co,REJECT
 DOMAIN-SUFFIX,umeng.com,REJECT
 DOMAIN-SUFFIX,umengcloud.com,REJECT
+DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 DOMAIN-SUFFIX,upcpi.com,REJECT
 DOMAIN-SUFFIX,urbanairship.com,REJECT
 DOMAIN-SUFFIX,usebutton.com,REJECT
@@ -422,30 +566,17 @@ DOMAIN-SUFFIX,xadchina.cn,REJECT
 DOMAIN-SUFFIX,xdrig.com,REJECT
 DOMAIN-SUFFIX,yldbt.com,REJECT
 DOMAIN-SUFFIX,ymtracking.com,REJECT
-DOMAIN-SUFFIX,appnext.com,REJECT
-DOMAIN-SUFFIX,madserving.com,REJECT
-DOMAIN-SUFFIX,i2000.xyz,REJECT
-DOMAIN-SUFFIX,ad373.com,REJECT
-DOMAIN-SUFFIX,ad.daum.net,REJECT
-DOMAIN-SUFFIX,api.appsee.com,REJECT
-DOMAIN-SUFFIX,ssl2.duapps.com,REJECT
-DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
-DOMAIN,log.umsns.com,REJECT
-DOMAIN,log.snssdk.com,REJECT
-DOMAIN,wgo.mmstat.com,REJECT
-DOMAIN,report.jpush.cn,REJECT
-DOMAIN,static.jpush.cn,REJECT
-DOMAIN,stats.jpush.cn,REJECT
-DOMAIN,stats.umsns.com,REJECT
-DOMAIN,s0.2mdn.net,REJECT
-DOMAIN,appnext.hs.llnwd.net,REJECT
+
 DOMAIN,abema-adx.ameba.jp,REJECT
+DOMAIN,ad-cn.jovcloud.com,REJECT
+DOMAIN,ad.10010.com,REJECT
 DOMAIN,ad.12306.cn,REJECT
 DOMAIN,ad.caiyunapp.com,REJECT
 DOMAIN,ad.huajiao.com,REJECT
+DOMAIN,ad.hzyoka.com,REJECT
 DOMAIN,ad.jiemian.com,REJECT
 DOMAIN,ad.qingting.fm,REJECT
-DOMAIN,ad-cn.jovcloud.com,REJECT
+DOMAIN,adfile.wifi8.com,REJECT
 DOMAIN,adnew.wifi8.com,REJECT
 DOMAIN,adsapi.manhuaren.com,REJECT
 DOMAIN,adsdk.dmzj.com,REJECT
@@ -456,33 +587,37 @@ DOMAIN,adx.hupu.com,REJECT
 DOMAIN,adxserver.ad.cmvideo.cn,REJECT
 DOMAIN,app-ad.variflight.com,REJECT
 DOMAIN,applog.mobike.com,REJECT
+DOMAIN,appnext.hs.llnwd.net,REJECT
 DOMAIN,ggs.myzaker.com,REJECT
+DOMAIN,log.b612kaji.com,REJECT
+DOMAIN,log.snssdk.com,REJECT
+DOMAIN,log.star.ele.me,REJECT
+DOMAIN,log.umsns.com,REJECT
+DOMAIN,log.voicecloud.cn,REJECT
+DOMAIN,log.ys7.com,REJECT
+DOMAIN,log.ys7.com,REJECT
 DOMAIN,logs.chelaile.net.cn,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
+DOMAIN,pagead2.googlesyndication.com,REJECT
+DOMAIN,report.jpush.cn,REJECT
+DOMAIN,s0.2mdn.net,REJECT
+DOMAIN,sp0.baidu.com,REJECT
+DOMAIN,static.jpush.cn,REJECT
 DOMAIN,static.vuevideo.net,REJECT
+DOMAIN,stats.jpush.cn,REJECT
+DOMAIN,stats.umsns.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,track.58.com,REJECT
 DOMAIN,track.tiara.daum.net,REJECT
 DOMAIN,track.tiara.kakao.com,REJECT
 DOMAIN,trackapp.guahao.cn,REJECT
+DOMAIN,tracklog.58.com,REJECT
 DOMAIN,traffic.mogujie.com,REJECT
-DOMAIN,log.ys7.com,REJECT
-DOMAIN,ad.hzyoka.com,REJECT
-# >> Baidu
-DOMAIN-SUFFIX,baidustatic.com,REJECT
-DOMAIN,duclick.baidu.com,REJECT
-DOMAIN,hm.baidu.com,REJECT
-DOMAIN,hmma.baidu.com,REJECT
-DOMAIN,mobads.baidu.com,REJECT
-DOMAIN,mobads-logs.baidu.com,REJECT
-DOMAIN,wn.pos.baidu.com,REJECT
-DOMAIN,ps.map.baidu.com,REJECT
-DOMAIN,sv.map.baidu.com,REJECT
-DOMAIN,offnavi.map.baidu.com,REJECT
-DOMAIN,newvector.map.baidu.com,REJECT
-DOMAIN,ulog.imap.baidu.com,REJECT
-DOMAIN,newloc.map.n.shifen.com,REJECT
+DOMAIN,wgo.mmstat.com,REJECT
+DOMAIN,wmlog.meituan.com,REJECT
+DOMAIN,zz.bdstatic.com,REJECT
+
 # >> Alibaba
 DOMAIN,acs4baichuan.m.taobao.com,REJECT
 DOMAIN,adash.m.taobao.com,REJECT
@@ -490,88 +625,75 @@ DOMAIN,adash.man.aliyuncs.com,REJECT
 DOMAIN,adashbc.ut.taobao.com,REJECT
 DOMAIN,adash-c.ut.taobao.com,REJECT
 DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,adashx4yt.m.taobao.com,REJECT
 DOMAIN,amdc.m.taobao.com,REJECT
 DOMAIN,apoll.m.taobao.com,REJECT
 DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
-# >> Tencent
-DOMAIN-SUFFIX,bugly.qq.com,REJECT
-DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,rqd.qq.com,REJECT
-DOMAIN,mi.gdt.qq.com,REJECT
-DOMAIN,btrace.qq.com,REJECT
-DOMAIN,mtrace.qq.com,REJECT
-DOMAIN,oth.eve.mdt.qq.com,REJECT
-DOMAIN,pingma.qq.com,REJECT
-DOMAIN,pingtcss.qq.com,REJECT
-DOMAIN,tajs.qq.com,REJECT
-# >> Netease
-DOMAIN,ad.bn.netease.com,REJECT
-DOMAIN,iadmat.nosdn.127.net,REJECT
-DOMAIN,iadmusicmat.music.126.net,REJECT
-DOMAIN,iadmusicmatvideo.music.126.net,REJECT
-DOMAIN,impservice.dictapp.youdao.com,REJECT
-DOMAIN,impservice.youdao.com,REJECT
-DOMAIN,log.yex.youdao.com,REJECT
-DOMAIN,log-yex.youdao.com,REJECT
-DOMAIN,n.3g.163.com,REJECT
-DOMAIN,nex.163.com,REJECT
-DOMAIN,yt-adp.nosdn.127.net,REJECT
-# >> Xiaomi
-DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
-DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
-DOMAIN-SUFFIX,data.mistat.xiaomi.com,REJECT
-DOMAIN-SUFFIX,tracking.miui.com,REJECT
-DOMAIN,adv.sec.miui.com,REJECT
-DOMAIN,o2o.api.xiaomi.com,REJECT
-# >> Sina
-DOMAIN,u1.img.mobile.sina.cn,REJECT
-DOMAIN,sax.sina.com.cn,REJECT
-DOMAIN,saxs.sina.com.cn,REJECT
-DOMAIN,saxn.sina.com.cn,REJECT
-# >> iQiyi
-DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
-DOMAIN,ifacelog.iqiyi.com,REJECT
-DOMAIN,mbdlog.iqiyi.com,REJECT
-DOMAIN,msg.71.am,REJECT
-DOMAIN,msg.qy.net,REJECT
-# >> Youku
-DOMAIN-SUFFIX,atm.youku.com,REJECT
-DOMAIN,ad.mobile.youku.com,REJECT
-DOMAIN,iyes.youku.com,REJECT
-# >> Sohu
-DOMAIN-SUFFIX,ads.sohu.com,REJECT
-DOMAIN-SUFFIX,aty.sohu.com,REJECT
-DOMAIN,imp.optaim.com,REJECT
-DOMAIN,v2.reachmax.cn,REJECT
-DOMAIN,track.sohu.com,REJECT
+
+# >> AutoHome
+DOMAIN,adproxy.autohome.com.cn,REJECT
+DOMAIN,rd.autohome.com.cn,REJECT
+DOMAIN,al.autohome.com.cn,REJECT
+DOMAIN,applogapi.autohome.com.cn,REJECT
+
+
+# >> Baicizhan
+DOMAIN,advertise.baicizhan.org,REJECT
+DOMAIN,advertise.baicizhan.com,REJECT
+
+# >> Baidu
+DOMAIN-SUFFIX,baidustatic.com,REJECT
+DOMAIN,duclick.baidu.com,REJECT
+DOMAIN,hm.baidu.com,REJECT
+DOMAIN,hmma.baidu.com,REJECT
+DOMAIN,mobads.baidu.com,REJECT
+DOMAIN,mobads-logs.baidu.com,REJECT
+DOMAIN,nsclick.baidu.com,REJECT
+DOMAIN,wn.pos.baidu.com,REJECT
+DOMAIN,ps.map.baidu.com,REJECT
+DOMAIN,sv.map.baidu.com,REJECT
+DOMAIN,offnavi.map.baidu.com,REJECT
+DOMAIN,newvector.map.baidu.com,REJECT
+DOMAIN,ulog.imap.baidu.com,REJECT
+DOMAIN,newloc.map.n.shifen.com,REJECT
+
+# >> BitAuto
+DOMAIN,adx.yiche.com,REJECT
+DOMAIN,log.ycapp.yiche.com,REJECT
+
+# >> CNTV
+DOMAIN,galaxy.bjcathay.com,REJECT
+DOMAIN,mdrecv.app.cntvwb.cn,REJECT
+DOMAIN,sdapprecv.app.cntvwb.cn,REJECT
+DOMAIN,vdapprecv.app.cntvwb.cn,REJECT
+
+# >> ele.me
+DOMAIN,log.star.ele.me,REJECT
+
 # >> HunanTV
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
 DOMAIN-SUFFIX,da.hunantv.com,REJECT
 DOMAIN-SUFFIX,log.hunantv.com,REJECT
 DOMAIN,log.v2.hunantv.com,REJECT
 DOMAIN,v2.log.hunantv.com,REJECT
-# >> PPTV
-DOMAIN,ads.aplus.pptv.com,REJECT
-DOMAIN,asimgs.pplive.cn,REJECT
-DOMAIN,de.as.pptv.com,REJECT
-# >> LeTV
-DOMAIN-SUFFIX,webp2p.letv.com,REJECT
-DOMAIN,ark.letv.com,REJECT
-DOMAIN,g3.letv.com,REJECT
-DOMAIN,n.mark.letv.com,REJECT
-# >> XiMaLaYa
-DOMAIN,ad.ximalaya.com,REJECT
-DOMAIN,adse.ximalaya.com,REJECT
-# >> Moji
-DOMAIN,ad.api.moji.com,REJECT
-DOMAIN,adlaunch.moji.com,REJECT
-DOMAIN,ads.mojicdn.com,REJECT
-DOMAIN,v1.log.moji.com,REJECT
+
+# >> iQiyi
+DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+DOMAIN,ifacelog.iqiyi.com,REJECT
+DOMAIN,mbdlog.iqiyi.com,REJECT
+DOMAIN,msg.71.am,REJECT
+DOMAIN,msg.qy.net,REJECT
+IP-CIDR,101.227.97.240/32,REJECT,no-resolve
+IP-CIDR,101.227.200.11/32,REJECT,no-resolve
+IP-CIDR,101.227.200.28/32,REJECT,no-resolve
+IP-CIDR,124.192.153.42/32,REJECT,no-resolve
+
 # >> Kingsoft
 DOMAIN,ad-stat.ksosoft.com,REJECT
 DOMAIN,img.auction-ads.wpscdn.cn,REJECT
 DOMAIN,minfo.wps.cn,REJECT
+
 # >> Kugou and Kuwo
 DOMAIN,adserviceretry.kugou.com,REJECT
 DOMAIN,ads.service.kugou.com,REJECT
@@ -583,34 +705,114 @@ DOMAIN,kgmobilestatbak.kugou.com,REJECT
 DOMAIN,mobilelog.kugou.com,REJECT
 DOMAIN,mobilead.kuwo.cn,REJECT
 DOMAIN,rich.kuwo.cn,REJECT
+
+# >> LeTV
+DOMAIN-SUFFIX,webp2p.letv.com,REJECT
+DOMAIN,ark.letv.com,REJECT
+DOMAIN,emma-414870e223.huodonghezi.com,REJECT
+DOMAIN,g3.letv.com,REJECT
+DOMAIN,n.mark.letv.com,REJECT
+
+# >> Moji
+DOMAIN,ad.api.moji.com,REJECT
+DOMAIN,adlaunch.moji.com,REJECT
+DOMAIN,ads.mojicdn.com,REJECT
+DOMAIN,v1.log.moji.com,REJECT
+
+# >> Netease
+DOMAIN,ad.bn.netease.com,REJECT
+DOMAIN,ad.yixin.im,REJECT
+DOMAIN,iadmat.nosdn.127.net,REJECT
+DOMAIN,iadmusicmat.music.126.net,REJECT
+DOMAIN,iadmusicmatvideo.music.126.net,REJECT
+DOMAIN,impservice.dictapp.youdao.com,REJECT
+DOMAIN,impservice.youdao.com,REJECT
+DOMAIN,log.yex.youdao.com,REJECT
+DOMAIN,log-yex.youdao.com,REJECT
+DOMAIN,n.3g.163.com,REJECT
+DOMAIN,nex.163.com,REJECT
+DOMAIN,yt-adp.nosdn.127.net,REJECT
+
+# >> PChome
+DOMAIN,ad-analysis.pconline.com.cn,REJECT
+DOMAIN,iad0ssl.pcauto.com.cn,REJECT
+DOMAIN,iad0ssl.pconline.com.cn,REJECT
+DOMAIN,imgad0.pcauto.com.cn,REJECT
+DOMAIN,imgad0.pconline.com.cn,REJECT
+DOMAIN,ivy.pchouse.com.cn,REJECT
+
 # >> Photoable
 DOMAIN,regist.fotoable.com,REJECT
 DOMAIN,cdn.adapi.fotoable.com,REJECT
+
+# >> PPTV
+DOMAIN,ads.aplus.pptv.com,REJECT
+DOMAIN,asimgs.pplive.cn,REJECT
+DOMAIN,de.as.pptv.com,REJECT
+
+# >> Sina
+DOMAIN,u1.img.mobile.sina.cn,REJECT
+DOMAIN,sax.sina.com.cn,REJECT
+DOMAIN,saxs.sina.com.cn,REJECT
+DOMAIN,saxn.sina.com.cn,REJECT
+
+# >> Sohu
+DOMAIN-SUFFIX,ads.sohu.com,REJECT
+DOMAIN-SUFFIX,aty.sohu.com,REJECT
+DOMAIN,imp.optaim.com,REJECT
+DOMAIN,v2.reachmax.cn,REJECT
+DOMAIN,track.sohu.com,REJECT
+
+# >> Tencent
+DOMAIN-SUFFIX,bugly.qq.com,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN-SUFFIX,rqd.qq.com,REJECT
+DOMAIN,mi.gdt.qq.com,REJECT
+DOMAIN,btrace.qq.com,REJECT
+DOMAIN,mtrace.qq.com,REJECT
+DOMAIN,oth.eve.mdt.qq.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,pingma.qq.com,REJECT
+DOMAIN,pingtcss.qq.com,REJECT
+DOMAIN,splashqqlive.gtimg.com,REJECT
+DOMAIN,tajs.qq.com,REJECT
+
+# >> Tonghuashun
+DOMAIN,adm.10jqka.com.cn,REJECT
+DOMAIN,stat.10jqka.com.cn,REJECT
+
 # >> UC
 DOMAIN,adtrack.ucweb.com,REJECT
 DOMAIN,applogios.uc.cn,REJECT
 DOMAIN,track.uc.cn,REJECT
+
+# >> Xiaomi
+DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
+DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
+DOMAIN-SUFFIX,data.mistat.xiaomi.com,REJECT
+DOMAIN-SUFFIX,tracking.miui.com,REJECT
+DOMAIN,adv.sec.miui.com,REJECT
+DOMAIN,o2o.api.xiaomi.com,REJECT
+
+# >> XiMaLaYa
+DOMAIN,ad.ximalaya.com,REJECT
+DOMAIN,adse.ximalaya.com,REJECT
+
 # >> Xuneli
 DOMAIN,adsp.xunlei.com,REJECT
 DOMAIN,etl.xlmc.sandai.net,REJECT
-# >> CNTV
-DOMAIN,galaxy.bjcathay.com,REJECT
-DOMAIN,mdrecv.app.cntvwb.cn,REJECT
-DOMAIN,sdapprecv.app.cntvwb.cn,REJECT
-DOMAIN,vdapprecv.app.cntvwb.cn,REJECT
-# >> ele.me
-DOMAIN,log.star.ele.me,REJECT
-# >> BitAuto
-DOMAIN,adx.yiche.com,REJECT
-DOMAIN,log.ycapp.yiche.com,REJECT
-# >> 同花顺
-DOMAIN,adm.10jqka.com.cn,REJECT
-DOMAIN,stat.10jqka.com.cn,REJECT
-# >> AutoHome
-DOMAIN,adproxy.autohome.com.cn,REJECT
-DOMAIN,rd.autohome.com.cn,REJECT
-DOMAIN,al.autohome.com.cn,REJECT
-DOMAIN,applogapi.autohome.com.cn,REJECT
+
+# >> Youku
+DOMAIN-SUFFIX,atm.youku.com,REJECT
+DOMAIN,ad.mobile.youku.com,REJECT
+DOMAIN,iyes.youku.com,REJECT
+
+# >> ZOL
+DOMAIN,apppv.zol.com.cn,REJECT
+DOMAIN,pvnapp.zol.com.cn,REJECT
+
 # --- End of Anti-AD Section ---
 
 # --- Anti-Hijacking ---
@@ -657,7 +859,6 @@ DOMAIN-SUFFIX,ichaosheng.com,REJECT
 DOMAIN-SUFFIX,jdkic.com,REJECT
 DOMAIN-SUFFIX,jiubuhua.com,REJECT
 DOMAIN-SUFFIX,kumihua.com,REJECT
-DOMAIN-SUFFIX,linkhaitao.com,REJECT
 DOMAIN-SUFFIX,linktech.cn,REJECT
 DOMAIN-SUFFIX,ltheanine.cn,REJECT
 DOMAIN-SUFFIX,maipinshangmao.com,REJECT
@@ -703,6 +904,7 @@ IP-CIDR,39.107.15.115/32,REJECT,no-resolve
 IP-CIDR,47.89.59.182/32,REJECT,no-resolve
 IP-CIDR,103.49.209.27/32,REJECT,no-resolve
 IP-CIDR,123.56.152.96/32,REJECT,no-resolve
+
 # >> ChinaNet
 IP-CIDR,61.160.200.223/32,REJECT,no-resolve
 IP-CIDR,61.160.200.242/32,REJECT,no-resolve
@@ -720,15 +922,18 @@ IP-CIDR,222.186.61.91/32,REJECT,no-resolve
 IP-CIDR,222.186.61.95/32,REJECT,no-resolve
 IP-CIDR,222.186.61.96/32,REJECT,no-resolve
 IP-CIDR,222.186.61.97/32,REJECT,no-resolve
+
 # >> ChinaUnicom
 IP-CIDR,106.75.231.48/32,REJECT,no-resolve
 IP-CIDR,119.4.249.166/32,REJECT,no-resolve
 IP-CIDR,220.196.52.141/32,REJECT,no-resolve
 IP-CIDR,221.6.4.148/32,REJECT,no-resolve
+
 # >> ChinaMobile
 IP-CIDR,114.247.28.96/32,REJECT,no-resolve
 IP-CIDR,221.179.131.72/32,REJECT,no-resolve
 IP-CIDR,221.179.140.145/32,REJECT,no-resolve
+
 # >> Dr.Peng
 IP-CIDR,10.72.25.0/24,REJECT,no-resolve
 IP-CIDR,115.182.16.79/32,REJECT,no-resolve
@@ -740,12 +945,14 @@ IP-CIDR,124.14.21.151/32,REJECT,no-resolve
 IP-CIDR,180.166.52.24/32,REJECT,no-resolve
 IP-CIDR,220.115.251.25/32,REJECT,no-resolve
 IP-CIDR,222.73.156.235/32,REJECT,no-resolve
+
 # --- End of Anti-Hijacking Section --- 
 
 # --- Blacklist ---
 DOMAIN-SUFFIX,kuaizip.com,REJECT
 DOMAIN-SUFFIX,mackeeper.com,REJECT
-# >> 马克丁
+
+# >> Makeding
 DOMAIN-SUFFIX,4009997658.com,REJECT
 DOMAIN-SUFFIX,abbyychina.com,REJECT
 DOMAIN-SUFFIX,bartender.cc,REJECT
@@ -823,8 +1030,8 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/(www.)?google\.cn https://www.google.com 302
 
 # Redirect HTTP to HTTPS
-^https?:\/\/(www.)?taobao\.com\/ https://taobao.com/ 302
-^https?:\/\/(www.)?jd\.com\/ https://jd.com/ 302
+^https?:\/\/(www.)?taobao\.com\/ https://www.taobao.com/ 302
+^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
 ^https?:\/\/(www.)?mi\.com\/ https://www.mi.com/ 302
 ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
 ^https?:\/\/(www.)?suning\.com/ https://suning.com/ 302
@@ -846,8 +1053,9 @@ aliyun.com = server:223.5.5.5
 *.aliyun.com = server:223.5.5.5
 weixin.com = server:119.28.28.28
 *.weixin.com = server:119.28.28.28
-bilibili = server:119.29.29.29
-*.bilibili = server:119.29.29.29
+bilibili.com = server:119.29.29.29
+*.bilibili.com = server:119.29.29.29
+hdslb.com = server:119.29.29.29
 163.com = server:119.29.29.29
 *.163.com = server:119.29.29.29
 126.com = server:119.29.29.29
