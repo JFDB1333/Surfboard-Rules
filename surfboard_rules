@@ -75,7 +75,29 @@ DOMAIN-SUFFIX,rixcloud.ee,rixCloud,force-remote-dns
 DOMAIN,analytics.rixcloud.app,Domestic
 
 # >> Google
+DOMAIN-SUFFIX,ampproject.com,rixCloud
+DOMAIN-SUFFIX,ampproject.net,rixCloud
+DOMAIN-SUFFIX,ampproject.org,rixCloud
+DOMAIN-SUFFIX,android.com,rixCloud
+DOMAIN-SUFFIX,blogspot.com,rixCloud
+DOMAIN-SUFFIX,blogspot.hk,rixCloud
+DOMAIN-SUFFIX,g.co,rixCloud
+DOMAIN-SUFFIX,ggpht.com,rixCloud
+DOMAIN-SUFFIX,goo.gl,rixCloud
+DOMAIN-SUFFIX,googleusercontent.com,rixCloud
+DOMAIN-SUFFIX,gstatic.com,rixCloud
+DOMAIN-SUFFIX,gstatic.cn,rixCloud
+DOMAIN-SUFFIX,gvt0.com,rixCloud
+DOMAIN-SUFFIX,gvt1.com,rixCloud
+DOMAIN-SUFFIX,gvt2.com,rixCloud
+DOMAIN-SUFFIX,gvt3.com,rixCloud
 DOMAIN-KEYWORD,blogspot,rixCloud,force-remote-dns
+DOMAIN,accounts.google.com,Proxy,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,googleapis.cn,Proxy,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,googleapis.com,Proxy,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,googlesource.com,Proxy,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,google.com,Proxy,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,gmail.com,Proxy,force-remote-dns
 DOMAIN-KEYWORD,google,rixCloud,force-remote-dns
 
 DOMAIN-SUFFIX,appspot.com,rixCloud,force-remote-dns
