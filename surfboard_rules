@@ -92,12 +92,12 @@ DOMAIN-SUFFIX,gvt1.com,rixCloud
 DOMAIN-SUFFIX,gvt2.com,rixCloud
 DOMAIN-SUFFIX,gvt3.com,rixCloud
 DOMAIN-KEYWORD,blogspot,rixCloud,force-remote-dns
-DOMAIN,accounts.google.com,Proxy,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,googleapis.cn,Proxy,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,googleapis.com,Proxy,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,googlesource.com,Proxy,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,google.com,Proxy,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,gmail.com,Proxy,force-remote-dns
+DOMAIN,accounts.google.com,rixCloud,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,googleapis.cn,rixCloud,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,googleapis.com,rixCloud,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,googlesource.com,rixCloud,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,google.com,rixCloud,force-remote-dns,enhanced-mode
+DOMAIN-SUFFIX,gmail.com,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,google,rixCloud,force-remote-dns
 
 DOMAIN-SUFFIX,appspot.com,rixCloud,force-remote-dns
