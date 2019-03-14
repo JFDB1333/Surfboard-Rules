@@ -222,7 +222,7 @@ DOMAIN,onedrive.live.com,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,jav,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,porn,rixCloud,force-remote-dns
-# --- End of Enhanced Anit-GFW Section ---
+# --- End of Enhanced Anti-GFW Section ---
 
 # --- General Anti-GFW ---
 
@@ -311,7 +311,7 @@ IP-CIDR,91.108.56.0/22,rixCloud,no-resolve
 IP-CIDR,109.239.140.0/24,rixCloud,no-resolve
 IP-CIDR,149.154.160.0/20,rixCloud,no-resolve
 
-# --- End of General Anit-GFW Section ---
+# --- End of General Anti-GFW Section ---
 
 # --- Mainland China Available --
 # >> Blizzard
