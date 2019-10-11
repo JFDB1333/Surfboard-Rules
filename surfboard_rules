@@ -347,13 +347,15 @@ DOMAIN,steamstore-a.akamaihd.net,Domestic
 # >> WeChat
 
 # >> Others
+
+DOMAIN-SUFFIX,akadns.net,Domestic
+DOMAIN-SUFFIX,bemanicn.cc,Domestic
 DOMAIN-SUFFIX,jd.hk,Domestic
 DOMAIN-SUFFIX,maoyun.tv,Domestic
 DOMAIN-SUFFIX,teamviewer.com,Domestic
 DOMAIN-SUFFIX,udacity.com,Domestic
 DOMAIN-SUFFIX,test-ipv6.com,Domestic
 DOMAIN-SUFFIX,ipv6-test.com,Domestic
-DOMAIN-SUFFIX,akadns.net,Domestic
 
 
 # --- End of Mainland China Available Section ---
